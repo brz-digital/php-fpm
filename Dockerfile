@@ -6,32 +6,24 @@ RUN apt-get update -y
 
 # Install php 7 fpm
 RUN apt-get install -y \
-    php7.0 \
-    php-fpm \
-    php-curl \
-    php-gd \
-    php-geoip \
-    php-imagick \
-    php-imap \
-    php-json \
-    php-ldap \
-    php-mcrypt \
-    php-memcache \
-    php-memcached \
-    php-mongodb \
-    php-mysqlnd \
-    php-pgsql \
-    php-redis \
-    php-sqlite3 \
-    php-xdebug \
-    php-xmlrpc \
-    php-intl \
-    php-pear \
-    php-pspell \
-    php-recode \
-    php-snmp \
-    php-tidy \
-    php-xsl \
+    php7.0-fpm \
+    php7.0-curl \
+    php7.0-gd \
+    php7.0-geoip \
+    php7.0-imagick \
+    php7.0-imap \
+    php7.0-json \
+    php7.0-ldap \
+    php7.0-mcrypt \
+    php7.0-memcache \
+    php7.0-memcached \
+    php7.0-mongo \
+    php7.0-mysqlnd \
+    php7.0-pgsql \
+    php7.0-redis \
+    php7.0-sqlite \
+    php7.0-xdebug \
+    php7.0-xmlrpc \
     && rm -rf /var/lib/apt/lists/*
 
 # Configure PHP-FPM

@@ -22,6 +22,7 @@ RUN apt-get install -y \
     php7.0-pgsql \
     php7.0-redis \
     php7.0-sqlite \
+    php7.0-mbstring \
     php7.0-xdebug \
     php7.0-xml \
     php7.0-xmlrpc \

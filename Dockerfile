@@ -27,6 +27,7 @@ RUN apt-get install -y \
     php7.1-xml \
     php7.1-xmlrpc \
     php7.1-zip \
+    php7.1-intl \
     && rm -rf /var/lib/apt/lists/*
 
 # Configure PHP-FPM

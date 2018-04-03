@@ -4,7 +4,7 @@ MAINTAINER "Joao Paulo Barbosa" <jpaulobneto@gmail.com>
 
 RUN apt-get update -y
 
-# Install php 7 fpm
+# Install php 7.2 fpm
 RUN apt-get install -y \
     php7.2-fpm \
     php7.2-curl \

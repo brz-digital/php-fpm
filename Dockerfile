@@ -5,8 +5,7 @@ MAINTAINER "Hugo Fabricio" <hugo@brzdigital.com.br>
 RUN apt-get update -y
 
 # Install php 7 fpm
-RUN apt-get install php7.2 \
-    php7.2-fpm \
+RUN apt-get install -y php7.2-fpm \
     php7.2-bcmath \
     php7.2-common \
     php7.2-cgi \
@@ -25,7 +24,6 @@ RUN apt-get install php7.2 \
     php7.2-geoip \
     php7.2-imap \
     php7.2-ldap \
-    php7.2-mcrypt \
     php7.2-memcache \
     php7.2-mongo \
     php7.2-mysqlnd \

@@ -5,9 +5,15 @@ MAINTAINER "Hugo Fabricio" <hugo@brzdigital.com.br>
 RUN apt-get update -y
 
 # Install php 7 fpm
-RUN apt-get install -y php7.2-fpm \
+RUN apt-get install -y php7.2-cli \
+    php7.2-fpm \
     php7.2-bcmath \
     php7.2-common \
+    php7.2-bz2 \
+    php7.2-calendar \
+    php7.2-iconv \
+    php7.2-igbinary \
+    php7.2-openssl \
     php7.2-cgi \
     php7.2-curl \
     php7.2-dev \
